@@ -30,10 +30,10 @@ pdfcreator={https://m-mono.github.io}
 ]{hyperref}
 
 
-%\usepackage{geometry}
-%\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm,foot=1.0cm}
+\usepackage{geometry}
+\geometry{left=3cm,right=3cm,top=3cm,bottom=3cm,foot=2cm}
 %\usepackage[papersize={204.8mm,273.2mm}]{geometry} % iPad Pro Format
-\usepackage[papersize={107.2mm,144.8mm}]{geometry} % Kindle Format
+%\usepackage[papersize={107.2mm,144.8mm}]{geometry} % Kindle Format
 %\usepackage[papersize={77.8mm,158.1mm}]{geometry} % iPhone 6 Plus Format
 \usepackage{graphics,graphicx,pdfpages}
 
@@ -50,6 +50,7 @@ pdfcreator={https://m-mono.github.io}
 \definecolor{BGColor}{RGB}{248,248,248} % BG Color
 %\pagecolor{BGColor}
 
+\usepackage{multicol}
 
 \makeindex
 \renewcommand{\contentsname}{目\quad 录}
@@ -93,19 +94,24 @@ pdfcreator={https://m-mono.github.io}
 \thispagestyle{empty}
 \newpage
 \part{1859-1908\\\hspace{1cm}我的家世}
+\begin{multicols}{2}
 \include{./Section/01_01_醇贤亲王的一生}
 \include{./Section/01_02_外祖父荣禄}
 \include{./Section/01_03_慈禧太后的决定}
 \include{./Section/01_04_摄政王监国}
 \include{./Section/01_05_亲王之家}
+\end{multicols}
 \part{1908-1917\\\hspace{1cm}我的童年}
+\begin{multicols}{2}
 \include{./Section/02_01_登极与退位}
 \include{./Section/02_02_帝王生活}
 \include{./Section/02_03_母子之间}
 \include{./Section/02_04_毓庆宫读书}
 \include{./Section/02_05_太监}
 \include{./Section/02_06_我的乳母}
+\end{multicols}
 \part{1917-1924\\\hspace{1cm}北京的“小朝廷”}
+\begin{multicols}{2}
 \include{./Section/03_01_袁世凯时代}
 \include{./Section/03_02_丁巳复辟}
 \include{./Section/03_03_北洋元老}
@@ -119,7 +125,9 @@ pdfcreator={https://m-mono.github.io}
 \include{./Section/03_11_在北府里}
 \include{./Section/03_12_三岔口上的抉择}
 \include{./Section/03_13_由“使馆区”到“租界”}
+\end{multicols}
 \part{1924-1930\\\hspace{1cm}天津的“行在”}
+\begin{multicols}{2}
 \include{./Section/04_01_罗振玉的努力}
 \include{./Section/04_02_我和奉系将领之间}
 \include{./Section/04_03_谢米诺夫和“小诸葛”}
@@ -127,7 +135,9 @@ pdfcreator={https://m-mono.github.io}
 \include{./Section/04_05_领事馆、司令部、黑龙会}
 \include{./Section/04_06_郑孝胥的理想}
 \include{./Section/04_07_“行在”生活}
+\end{multicols}
 \part{1931-1932\\\hspace{1cm}到东北去}
+\begin{multicols}{2}
 \include{./Section/05_01_不静的“静园”}
 \include{./Section/05_02_日本人意见分歧}
 \include{./Section/05_03_夜见土肥原}
@@ -135,7 +145,9 @@ pdfcreator={https://m-mono.github.io}
 \include{./Section/05_05_在封锁中}
 \include{./Section/05_06_所见与所思}
 \include{./Section/05_07_会见板垣}
+\end{multicols}
 \part{1932-1945\\\hspace{1cm}伪满十四年}
+\begin{multicols}{2}
 \include{./Section/06_01_傀儡戏开场}
 \include{./Section/06_02_尊严与职权}
 \include{./Section/06_03_订立密约以后}
@@ -146,11 +158,15 @@ pdfcreator={https://m-mono.github.io}
 \include{./Section/06_08_几个“诏书”的由来}
 \include{./Section/06_09_家门以内}
 \include{./Section/06_10_大崩溃}
+\end{multicols}
 \part{1945-1950\\\hspace{1cm}在苏联的五年}
+\begin{multicols}{2}
 \include{./Section/07_01_疑惧和幻想}
 \include{./Section/07_02_放不下架子}
 \include{./Section/07_03_我不认罪}
+\end{multicols}
 \part{1950-1954\\\hspace{1cm}由抗拒到认罪}
+\begin{multicols}{2}
 \include{./Section/08_01_我只想到死}
 \include{./Section/08_02_初到抚顺}
 \include{./Section/08_03_我离开了家族}
@@ -162,7 +178,9 @@ pdfcreator={https://m-mono.github.io}
 \include{./Section/08_09_检察人员来了}
 \include{./Section/08_10_东北人民的灾难和仇恨}
 \include{./Section/08_11_“自作孽，不可活”}
+\end{multicols}
 \part{1955-1956\\\hspace{1cm}接受改造}
+\begin{multicols}{2}
 \include{./Section/09_01_怎样做人}
 \include{./Section/09_02_问题在自己身上}
 \include{./Section/09_03_不可衡量的人}
@@ -174,7 +192,10 @@ pdfcreator={https://m-mono.github.io}
 \include{./Section/09_09_劳动与乐观}
 \include{./Section/09_10_考验}
 \include{./Section/09_11_特赦}
+\end{multicols}
 \part{1960-1960\\\hspace{1cm}新的一章}
+\begin{multicols}{2}
 \include{./Section/10_01_新的一章}
+\end{multicols}
 {\color{TEXTColor}
 \end{document}
