@@ -1,0 +1,180 @@
+% MacTeX 2016 with XeLaTeX + Inziu Iosevka
+
+\documentclass[twoside,openright,headings=optiontohead]{scrbook}
+\renewcommand{\baselinestretch}{1.3}  %行間距倍率
+\renewcommand\thepage{}
+
+
+\usepackage[
+a4paper=true,
+%CJKbookmarks,
+unicode=true,
+bookmarksnumbered,
+bookmarksopen,
+hyperfigures=true,
+hyperindex=true,
+pdfpagelayout = SinglePage,
+%pdfpagelayout = TwoPageRight,
+pdfpagelabels = true,
+pdfstartview = FitV,
+colorlinks,
+pdfborder=001,
+linkcolor=black,
+anchorcolor=black,
+citecolor=black,
+pdftitle={我的前半生},
+pdfauthor={爱新觉罗 · 溥仪},
+pdfsubject={M-Mono@GitHub, 2016},
+pdfkeywords={《我的前半生》是爱新觉罗 · 溥仪的自传，作者从自己的家庭背景写起，回顾了他在入宫做了皇帝、遭遇辛亥革命、满清皇帝退位、民国成立、北洋军阀混战、出宫、客寓天津、做伪满洲皇帝、逃亡，直至解放后接受改造，成为普通公民的全部历史。他的写作即是个人的历史书写，也由于他的特殊的历史地位，全方位地再现了二十世纪上半期中国社会所发生的历史变迁。},
+pdfcreator={https://m-mono.github.io}
+]{hyperref}
+
+
+%\usepackage{geometry}
+%\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm,foot=1.0cm}
+%\usepackage[papersize={204.8mm,273.2mm}]{geometry} % iPad Pro Format
+\usepackage[papersize={107.2mm,144.8mm}]{geometry} % Kindle Format
+%\usepackage[papersize={77.8mm,158.1mm}]{geometry} % iPhone 6 Plus Format
+\usepackage{graphics,graphicx,pdfpages}
+
+
+\usepackage{xeCJK}
+\usepackage{indentfirst}
+\setlength{\parindent}{2.0em}
+\setCJKmainfont{Inziu-Iosevka-SC-Regular}
+\setmainfont{Inziu-Iosevka-SC-Regular}
+
+% 頁面及文字顏色
+\usepackage{xcolor}
+\definecolor{TEXTColor}{RGB}{100,100,100} % TEXT Color
+\definecolor{BGColor}{RGB}{248,248,248} % BG Color
+%\pagecolor{BGColor}
+
+
+\makeindex
+\renewcommand{\contentsname}{目\quad 录}
+\usepackage{fancyhdr} % 設置頁眉頁腳
+\pagestyle{fancy}
+\fancyhf{} % 清空當前設置
+\renewcommand{\headrulewidth}{0pt}  %頁眉線寬，設為0可以去頁眉線
+\renewcommand{\footrulewidth}{0pt}  %頁眉線寬，設為0可以去頁眉線
+
+\usepackage{titletoc}
+\dottedcontents{section}[100em]{\bfseries}{100em}{100em} % 去掉目录虚线
+
+
+\begin{document}
+\begin{figure}[ht]
+\begin{center}
+\includepdf[width=\paperwidth]{Title.jpg}
+\end{center}
+\end{figure}
+\newpage
+\begin{flushright}
+{\Huge 我}
+
+{\Huge 的}
+
+{\Huge 前}
+
+{\Huge 半}
+
+{\Huge 生}
+
+\vspace{1cm}
+
+{\LARGE 溥}
+
+{\LARGE 仪}
+\end{flushright}
+\newpage
+{\color{TEXTColor}
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\part{1859-1908\\\hspace{1cm}我的家世}
+\include{./Section/01_01_醇贤亲王的一生}
+\include{./Section/01_02_外祖父荣禄}
+\include{./Section/01_03_慈禧太后的决定}
+\include{./Section/01_04_摄政王监国}
+\include{./Section/01_05_亲王之家}
+\part{1908-1917\\\hspace{1cm}我的童年}
+\include{./Section/02_01_登极与退位}
+\include{./Section/02_02_帝王生活}
+\include{./Section/02_03_母子之间}
+\include{./Section/02_04_毓庆宫读书}
+\include{./Section/02_05_太监}
+\include{./Section/02_06_我的乳母}
+\part{1917-1924\\\hspace{1cm}北京的“小朝廷”}
+\include{./Section/03_01_袁世凯时代}
+\include{./Section/03_02_丁巳复辟}
+\include{./Section/03_03_北洋元老}
+\include{./Section/03_04_不绝的希望}
+\include{./Section/03_05_庄士敦}
+\include{./Section/03_06_结婚}
+\include{./Section/03_07_内部冲突}
+\include{./Section/03_08_遣散太监}
+\include{./Section/03_09_整顿内务府}
+\include{./Section/03_10_紫禁城的末日}
+\include{./Section/03_11_在北府里}
+\include{./Section/03_12_三岔口上的抉择}
+\include{./Section/03_13_由“使馆区”到“租界”}
+\part{1924-1930\\\hspace{1cm}天津的“行在”}
+\include{./Section/04_01_罗振玉的努力}
+\include{./Section/04_02_我和奉系将领之间}
+\include{./Section/04_03_谢米诺夫和“小诸葛”}
+\include{./Section/04_04_东陵事件}
+\include{./Section/04_05_领事馆、司令部、黑龙会}
+\include{./Section/04_06_郑孝胥的理想}
+\include{./Section/04_07_“行在”生活}
+\part{1931-1932\\\hspace{1cm}到东北去}
+\include{./Section/05_01_不静的“静园”}
+\include{./Section/05_02_日本人意见分歧}
+\include{./Section/05_03_夜见土肥原}
+\include{./Section/05_04_白河偷渡}
+\include{./Section/05_05_在封锁中}
+\include{./Section/05_06_所见与所思}
+\include{./Section/05_07_会见板垣}
+\part{1932-1945\\\hspace{1cm}伪满十四年}
+\include{./Section/06_01_傀儡戏开场}
+\include{./Section/06_02_尊严与职权}
+\include{./Section/06_03_订立密约以后}
+\include{./Section/06_04_《国联调查团报告书》}
+\include{./Section/06_05_第三次做“皇帝”}
+\include{./Section/06_06_幻想的破灭}
+\include{./Section/06_07_吉冈安直}
+\include{./Section/06_08_几个“诏书”的由来}
+\include{./Section/06_09_家门以内}
+\include{./Section/06_10_大崩溃}
+\part{1945-1950\\\hspace{1cm}在苏联的五年}
+\include{./Section/07_01_疑惧和幻想}
+\include{./Section/07_02_放不下架子}
+\include{./Section/07_03_我不认罪}
+\part{1950-1954\\\hspace{1cm}由抗拒到认罪}
+\include{./Section/08_01_我只想到死}
+\include{./Section/08_02_初到抚顺}
+\include{./Section/08_03_我离开了家族}
+\include{./Section/08_04_搬到哈尔滨}
+\include{./Section/08_05_写自传与献“宝”}
+\include{./Section/08_06_小家族起变化}
+\include{./Section/08_07_坦白从宽}
+\include{./Section/08_08_糊纸盒}
+\include{./Section/08_09_检察人员来了}
+\include{./Section/08_10_东北人民的灾难和仇恨}
+\include{./Section/08_11_“自作孽，不可活”}
+\part{1955-1956\\\hspace{1cm}接受改造}
+\include{./Section/09_01_怎样做人}
+\include{./Section/09_02_问题在自己身上}
+\include{./Section/09_03_不可衡量的人}
+\include{./Section/09_04_变化说明了一切}
+\include{./Section/09_05_会见亲属}
+\include{./Section/09_06_日本战犯}
+\include{./Section/09_07_“世界上的光辉”}
+\include{./Section/09_08_再次参观}
+\include{./Section/09_09_劳动与乐观}
+\include{./Section/09_10_考验}
+\include{./Section/09_11_特赦}
+\part{1960-1960\\\hspace{1cm}新的一章}
+\include{./Section/10_01_新的一章}
+{\color{TEXTColor}
+\end{document}
