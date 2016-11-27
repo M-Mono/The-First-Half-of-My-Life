@@ -21,7 +21,7 @@
   - [MacTeX 2016 with XeLaTeX](https://www.tug.org/mactex/)
 
 
-+ Microsoft Windows 10
++ Microsoft Windows
   - [TeX Live 2016 with XeLaTeX](https://www.tug.org/texlive/)
 
 
