@@ -26,7 +26,7 @@
 
 
 + Font
-  - [Inziu Iosevka 1.9.6](https://be5invis.github.io/)
+  - [Inziu Iosevka 1.9.6](https://be5invis.github.io/Iosevka/inziu.html)
 
 
 + Editor
