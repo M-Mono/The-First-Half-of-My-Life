@@ -31,10 +31,7 @@ pdfcreator={https://m-mono.github.io}
 
 
 \usepackage{geometry}
-\geometry{left=3cm,right=3cm,top=3cm,bottom=3cm,foot=2cm}
-%\usepackage[papersize={204.8mm,273.2mm}]{geometry} % iPad Pro Format
-%\usepackage[papersize={107.2mm,144.8mm}]{geometry} % Kindle Format
-%\usepackage[papersize={77.8mm,158.1mm}]{geometry} % iPhone 6 Plus Format
+\geometry{left=3cm,right=3cm,top=3cm,bottom=3cm,foot=3cm}
 \usepackage{graphics,graphicx,pdfpages}
 
 %自动加注拼音
@@ -46,14 +43,20 @@ pdfcreator={https://m-mono.github.io}
 \usepackage{xeCJK}
 \usepackage{indentfirst}
 \setlength{\parindent}{2.0em}
+
 \setCJKmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+\setCJKsansfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+\setCJKmonofont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
 \setmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+\setsansfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+\setmonofont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
 
 % 頁面及文字顏色
 \usepackage{xcolor}
 \definecolor{TEXTColor}{RGB}{100,100,100} % TEXT Color
-\definecolor{BGColor}{RGB}{248,248,248} % BG Color
-%\pagecolor{BGColor}
+\definecolor{BGColor}{RGB}{255,255,255} % BG Color
+\definecolor{FrontmatterColor}{RGB}{246,246,246} % Frontmatter Color
+
 
 \usepackage{multicol}
 
@@ -68,34 +71,45 @@ pdfcreator={https://m-mono.github.io}
 \usepackage{titletoc}
 \dottedcontents{section}[100em]{\bfseries}{100em}{100em} % 去掉目录虚线
 
+%将图片作为背景
+\usepackage{wallpaper} 
+
 
 \begin{document}
-\begin{figure}[ht]
-\begin{center}
-\includepdf[width=\paperwidth]{Frontmatter.jpg}
-\end{center}
-\end{figure}
-\newpage
+\ULCornerWallPaper{1.0}{Frontmatter.jpg}
+\setlength{\wpXoffset}{3cm}
+%\setlength{\wpYoffset}{3cm}
+\pagecolor{FrontmatterColor}
+\color{TEXTColor}
 \begin{flushright}
 {\Huge 我}
 
+\vspace{3mm}
 {\Huge 的}
 
+\vspace{3mm}
 {\Huge 前}
 
+\vspace{3mm}
 {\Huge 半}
 
+\vspace{3mm}
 {\Huge 生}
 
 \vspace{1cm}
 
 {\LARGE 溥}
 
+\vspace{3mm}
 {\LARGE 仪}
 \end{flushright}
 \newpage
+\pagecolor{BGColor}
+\ClearWallPaper
 {\color{TEXTColor}
+\begin{multicols}{2}
 \tableofcontents
+\end{multicols}
 \thispagestyle{empty}
 \newpage
 \part{1859-1908\\\hspace{1cm}我的家世}

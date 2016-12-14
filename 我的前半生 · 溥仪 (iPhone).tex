@@ -30,11 +30,7 @@ pdfcreator={https://m-mono.github.io}
 ]{hyperref}
 
 
-%\usepackage{geometry}
-%\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm,foot=1.0cm}
-%\usepackage[papersize={204.8mm,273.2mm}]{geometry} % iPad Pro Format
-%\usepackage[papersize={107.2mm,144.8mm}]{geometry} % Kindle Format
-\usepackage[papersize={75.0mm,133.4mm}]{geometry} % iPhone 7 Format
+\usepackage[papersize={75.0mm,133.4mm}]{geometry} % iPhone Format
 \usepackage{graphics,graphicx,pdfpages}
 
 %自动加注拼音
@@ -47,8 +43,16 @@ pdfcreator={https://m-mono.github.io}
 \usepackage{xeCJK}
 \usepackage{indentfirst}
 \setlength{\parindent}{2.0em}
+%\setCJKmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+%setmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+
+
 \setCJKmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+\setCJKsansfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+\setCJKmonofont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
 \setmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+\setsansfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+\setmonofont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
 
 % 頁面及文字顏色
 \usepackage{xcolor}
