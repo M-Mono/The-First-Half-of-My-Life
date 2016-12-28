@@ -16,6 +16,14 @@
 ![爱新觉罗 · 溥仪](https://github.com/M-Mono/The-First-Half-of-My-Life/raw/master/Frontmatter.jpg)
 
 ---
+说明：
+
+本文对天干地支，皇帝年号，生僻字及人名进行了标注，其中：
+  - 汉族人名使用拼音标注
+  - 满族人名使用穆麟德转写方案标注
+  - 日文人名使用振假名标注
+  - 苏联及欧美各国人名使用本国文字标注
+---
 编译环境：
 
 + Apple macOS

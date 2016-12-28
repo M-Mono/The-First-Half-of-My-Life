@@ -34,9 +34,11 @@ pdfcreator={https://m-mono.github.io}
 
 %自动加注拼音
 \usepackage{xpinyin}
-%手动加注多音字
+\xpinyinsetup{format={\color{PinYinColor}}}
+%手动加注外语及日语振假名
 \usepackage{ruby}
-\renewcommand\rubysize{0.4}
+\renewcommand\rubysize{0.4} %匹配 xpinyin 默认标注字体大小
+\renewcommand\rubysep{-0.3em} %匹配 xpinyin 默认标注高度
 
 \usepackage{xeCJK}
 \usepackage{indentfirst}
@@ -51,10 +53,10 @@ pdfcreator={https://m-mono.github.io}
 
 % 頁面及文字顏色
 \usepackage{xcolor}
-\definecolor{TEXTColor}{RGB}{100,100,100} % TEXT Color
+\definecolor{TEXTColor}{RGB}{50,50,50} % TEXT Color
+\definecolor{PinYinColor}{RGB}{150,150,150} % TEXT Color
 \definecolor{NOTEXTColor}{RGB}{0,0,0} % No TEXT Color
-\definecolor{BGColor}{RGB}{255,255,255} % BG Color
-\definecolor{FrontmatterColor}{RGB}{246,246,246} % Frontmatter Color
+\definecolor{BGColor}{RGB}{240,240,240} % BG Color
 
 
 \usepackage{multicol}
@@ -70,9 +72,6 @@ pdfcreator={https://m-mono.github.io}
 \usepackage{titletoc}
 \dottedcontents{section}[100em]{\bfseries}{100em}{100em} % 去掉目录虚线
 
-%将图片作为背景
-\usepackage{wallpaper} 
-
 
 \begin{document}
 \begin{figure}[ht]
@@ -81,8 +80,6 @@ pdfcreator={https://m-mono.github.io}
 	\end{center}
 \end{figure}
 \newpage
-\pagecolor{BGColor}
-\ClearWallPaper
 {\color{TEXTColor}
 \begin{multicols}{2}
 \tableofcontents

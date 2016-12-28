@@ -31,14 +31,17 @@ pdfcreator={https://m-mono.github.io}
 ]{hyperref}
 
 
-\usepackage[papersize={107.2mm,144.8mm}]{geometry} % Kindle Format
+%Kindle Voyage, Paperwhite (3rd gen), Oasis: 6 in diagonal, 1448 × 1072 pixels @ 300 PPI 
+\usepackage[papersize={9cm,12.2cm}]{geometry} % Kindle Format
 \usepackage{graphics,graphicx,pdfpages}
 
 %自动加注拼音
 \usepackage{xpinyin}
-%手动加注多音字
+\xpinyinsetup{format={\color{PinYinColor}}}
+%手动加注外语及日语振假名
 \usepackage{ruby}
-\renewcommand\rubysize{0.4}
+\renewcommand\rubysize{0.4} %匹配 xpinyin 默认标注字体大小
+\renewcommand\rubysep{-0.3em} %匹配 xpinyin 默认标注高度
 
 
 \usepackage{xeCJK}
@@ -55,6 +58,7 @@ pdfcreator={https://m-mono.github.io}
 % 頁面及文字顏色
 \usepackage{xcolor}
 \definecolor{TEXTColor}{RGB}{130,130,130} % TEXT Color
+\definecolor{PinYinColor}{RGB}{150,150,150} % TEXT Color
 \definecolor{NOTEXTColor}{RGB}{130,130,130} % No TEXT Color
 \definecolor{BGColor}{RGB}{0,0,0} % BG Color
 \pagecolor{BGColor}
