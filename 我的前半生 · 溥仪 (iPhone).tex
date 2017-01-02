@@ -12,7 +12,6 @@ bookmarksopen,
 hyperfigures=true,
 hyperindex=true,
 pdfpagelayout = SinglePage,
-%pdfpagelayout = TwoPageRight,
 pdfpagelabels = true,
 pdfstartview = FitV,
 colorlinks,
@@ -23,7 +22,7 @@ citecolor=black,
 pdftitle={我的前半生},
 pdfauthor={爱新觉罗·溥仪},
 pdfsubject={我的前半生},
-pdfkeywords={《我的前半生》是爱新觉罗 · 溥仪的自传，作者从自己的家庭背景写起，回顾了他在入宫做了皇帝、遭遇辛亥革命、满清皇帝退位、民国成立、北洋军阀混战、出宫、客寓天津、做伪满洲皇帝、逃亡，直至解放后接受改造，成为普通公民的全部历史。他的写作即是个人的历史书写，也由于他的特殊的历史地位，再现了二十世纪上半期中国社会所发生的历史变迁。},
+pdfkeywords={《我的前半生》是爱新觉罗·溥仪的自传，作者从自己的家庭背景写起，回顾了他在入宫做了皇帝、遭遇辛亥革命、满清皇帝退位、民国成立、北洋军阀混战、出宫、客寓天津、做伪满洲皇帝、逃亡，直至解放后接受改造，成为普通公民的全部历史。他的写作即是个人的历史书写，也由于他的特殊的历史地位，再现了二十世纪上半期中国社会所发生的历史变迁。},
 pdfcreator={https://m-mono.github.io}
 ]{hyperref}
 
@@ -44,12 +43,15 @@ pdfcreator={https://m-mono.github.io}
 \usepackage{indentfirst}
 \setlength{\parindent}{2.0em}
 
+%正文字体
 \setCJKmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
 \setCJKsansfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
 \setCJKmonofont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
 \setmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
 \setsansfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
 \setmonofont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+%满文字体
+\newfontfamily{\Man}[Path=Fonts/]{NotoSansMongolian-Regular.ttf}
 
 % 頁面及文字顏色
 \usepackage{xcolor}

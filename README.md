@@ -20,8 +20,8 @@
 
 本书对干支纪年，皇帝年号，生僻字及人名进行了标注，其中：
   - 汉族人名使用拼音标注
-  - 满族人名使用穆麟德转写方案标注（人物资料不详者以拼音标注）
-  - 蒙古族人名使用西里尔字母标注（人物资料不详者以拼音标注）
+  - 满族人名使用满文或穆麟德转写方案标注（人物资料不详者以拼音标注）
+  - 蒙古族人名使用蒙文或西里尔字母标注（人物资料不详者以拼音标注）
   - 日文人名使用振假名标注
   - 苏联及欧美各国人名使用其本国文字标注
 
@@ -38,7 +38,7 @@
 
 + Font
   - [Source Han Sans 1.004](https://github.com/adobe-fonts/source-han-sans)
-
+  - [Google Noto 1.004](https://www.google.com/get/noto/)
 
 + Editor
   - [TeXstudio 2.11.2](http://texstudio.sourceforge.net/)
