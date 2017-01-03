@@ -13,7 +13,7 @@
 被关押在战犯管理所里的日子，溥仪逐步学会系鞋带、自己洗衣服等生活常识，在头脑中也扫荡了帝王意识而树立了公民观念。1959年秋，溥仪获得特赦回到北京。有些老人见面后还行跪拜大礼，马上被他批评为思想落后。获得一张选民证后，溥仪称这是一生最珍贵的东西。他开始在植物园劳动。蒙哥马利来访时询问他感受如何，他回答说“比起皇帝来我更愿当园丁”。这位英国元帅惊讶之极，回国后把这当成奇闻宣传。有的外国进步人士来访后，报道说：“看到溥仪，才能深刻地感受到什么是中国的社会主义改造。” 总之，他由帝王变为了一位公民，晚年曾想写《我的后半生》可惜未成。
 
 
-![爱新觉罗 · 溥仪](https://github.com/M-Mono/The-First-Half-of-My-Life/raw/master/Frontmatter.jpg)
+![我的前半生 · 溥仪](https://github.com/M-Mono/m-mono.github.io/raw/master/images/Frontmatter_The-First-Half-of-My-Life.jpg)
 
 ---
 说明：
@@ -38,7 +38,8 @@
 
 + Font
   - [Source Han Sans 1.004](https://github.com/adobe-fonts/source-han-sans)
-  - [Google Noto 1.004](https://www.google.com/get/noto/)
+  - [Abkai Xanyan 15.07](http://abkai.net/core/zh/manchu/manchu-fonts/)
+
 
 + Editor
   - [TeXstudio 2.11.2](http://texstudio.sourceforge.net/)
