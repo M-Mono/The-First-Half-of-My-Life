@@ -23,7 +23,7 @@
   - 满族人名使用满文或穆麟德转写方案标注（人物资料不详者以拼音标注）
   - 蒙古族人名使用蒙文或西里尔字母标注（人物资料不详者以拼音标注）
   - 日文人名使用振假名标注
-  - 苏联及欧美各国人名使用其本国文字标注
+  - 苏联及欧美等各国人名使用其本国文字标注
 
 ---
 编译环境：
@@ -37,8 +37,9 @@
 
 
 + Font
-  - [Source Han Sans 1.004](https://github.com/adobe-fonts/source-han-sans)
   - [Abkai Xanyan 15.07](http://abkai.net/core/zh/manchu/manchu-fonts/)
+  - [Noto Sans Mongolian 1.004](https://www.google.com/get/noto/#sans-mong)
+  - [Source Han Sans 1.004](https://github.com/adobe-fonts/source-han-sans)
 
 
 + Editor
