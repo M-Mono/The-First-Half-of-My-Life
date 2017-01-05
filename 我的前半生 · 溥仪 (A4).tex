@@ -1,5 +1,5 @@
-\documentclass[oneside,openright,headings=optiontohead]{scrbook}
-\renewcommand{\baselinestretch}{1.3}  %行間距倍率
+\documentclass[twoside,openright,headings=optiontohead]{scrbook}
+\renewcommand{\baselinestretch}{1.5}  %行間距倍率
 \renewcommand\thepage{}
 
 
@@ -11,8 +11,8 @@ bookmarksnumbered,
 bookmarksopen,
 hyperfigures=true,
 hyperindex=true,
-pdfpagelayout = SinglePage,
-%pdfpagelayout = TwoPageRight,
+%pdfpagelayout = SinglePage,
+pdfpagelayout = TwoPageRight,
 pdfpagelabels = true,
 pdfstartview = FitV,
 colorlinks,
@@ -38,7 +38,7 @@ pdfcreator={https://m-mono.github.io}
 %手动加注外语及日语振假名
 \usepackage{ruby}
 \renewcommand\rubysize{0.4} %匹配 xpinyin 默认标注字体大小
-\renewcommand\rubysep{-0.3em} %匹配 xpinyin 默认标注高度
+\renewcommand\rubysep{-0.5em} %匹配 xpinyin 默认标注高度
 
 \usepackage{xeCJK}
 \usepackage{indentfirst}
