@@ -29,16 +29,16 @@
 编译环境：
 
 + Apple macOS
-  - [MacTeX 2016 with XeLaTeX](https://www.tug.org/mactex/)
+  - [MacTeX 2016](https://www.tug.org/mactex/)
 
 
 + Microsoft Windows
-  - [TeX Live 2016 with XeLaTeX](https://www.tug.org/texlive/)
+  - [TeX Live 2016](https://www.tug.org/texlive/)
 
 
-+ Font
++ Fonts
   - [Abkai Xanyan 15.07](http://abkai.net/core/zh/manchu/manchu-fonts/)
-  - [Noto Sans Mongolian 1.004](https://www.google.com/get/noto/#sans-mong)
+  - [Noto Sans Mongolian 1.04 uh](https://www.google.com/get/noto/#sans-mong)
   - [Source Han Sans 1.004](https://github.com/adobe-fonts/source-han-sans)
 
 
