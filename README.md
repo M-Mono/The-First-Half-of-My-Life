@@ -40,6 +40,7 @@
   - [Abkai Xanyan 15.07](http://abkai.net/core/zh/manchu/manchu-fonts/)
   - [Noto Sans Mongolian 1.04 uh](https://www.google.com/get/noto/#sans-mong)
   - [Source Han Sans 1.004](https://github.com/adobe-fonts/source-han-sans)
+  - [Source Sans Pro 2.020](https://github.com/adobe-fonts/source-sans-pro)
 
 
 + Editor
